@@ -262,7 +262,7 @@ export default function App() {
               <div className="flex items-center h-14">
                 <div className="ml-[20px] text-[var(--color-on-surface)] flex items-center">
                   <img 
-                    src="https://raw.githubusercontent.com/daoquan1002/post/refs/heads/main/quan.-logo.png" 
+                    src="https://raw.githubusercontent.com/daoquan1002/test/refs/heads/main/quan.-logo.png" 
                     alt="Quan." 
                     className="h-7"
                   />

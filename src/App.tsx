@@ -28,7 +28,6 @@ const POSTS = [
     author: USER,
     content: "kamome sano / happy ending",
     time: "27/02/2026",
-    isSensitive: true,
     media: [
       { type: "audio", url: "https://raw.githubusercontent.com/daoquan1002/post/refs/heads/main/music/Kamome Sano - happy ending.opus" },
     ]

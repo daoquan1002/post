@@ -24,104 +24,20 @@ const USER = {
 
 const POSTS = [
   {
-    id: 11,
-    author: USER,
-    content: "This is a sensitive post that contains spoilers for the new movie. Proceed with caution!",
-    time: "30m",
-    isSensitive: true,
-    media: [
-      { type: "image", url: "https://picsum.photos/seed/spoiler/800/600" }
-    ]
-  },
-  {
-    id: 10,
-    author: USER,
-    content: "Enjoying this beautiful view with some relaxing music. 🌄🎶",
-    time: "1h",
-    media: [
-      { type: "image", url: "https://picsum.photos/seed/view/800/800" },
-      { type: "audio", url: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3" }
-    ]
-  },
-  {
-    id: 9,
-    author: USER,
-    content: "Material Expressive and how Android 16 is pushing the boundaries of dynamic color and organic shapes. The future of UI is emotional! 🚀",
-    time: "2h",
-    media: [
-      { type: "image", url: "https://picsum.photos/seed/post1/800/600" }
-    ]
-  },
-  {
-    id: 8,
-    author: USER,
-    content: "Just published a new case study on Material Expressive and how Android 16 is pushing the boundaries of dynamic color and organic shapes. The future of UI is emotional! 🚀",
-    time: "2h",
-    media: [
-      { type: "image", url: "https://picsum.photos/seed/post1/800/600" }
-    ]
-  },
-  {
-    id: 7,
-    author: USER,
-    content: "Unpopular opinion: The floating action button (FAB) is still one of the best interaction patterns we've ever created. It's just misunderstood.",
-    time: "5h",
-    media: []
-  },
-  {
-    id: 6,
-    author: USER,
-    content: "Check out this amazing drone footage I captured over the weekend! The colors are absolutely stunning. 🚁🌅",
-    time: "1d",
-    media: [
-      { type: "video", url: "https://www.w3schools.com/html/mov_bbb.mp4" }
-    ]
-  },
-  {
-    id: 5,
-    author: USER,
-    content: "Just dropped a new lo-fi track for your coding sessions. Let me know what you think! 🎧✨",
-    time: "2d",
-    media: [
-      { type: "audio", url: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" }
-    ]
-  },
-  {
-    id: 4,
-    author: USER,
-    content: "Learning so much from this Material Design 3 tutorial. The new color system is incredibly powerful!",
-    time: "3d",
-    media: [
-      { type: "youtube", url: "https://www.youtube.com/embed/2Vv-BfVoq4g" }
-    ]
-  },
-  {
-    id: 3,
-    author: USER,
-    content: "Exploring some new architectural concepts today. The interplay of light and shadow is fascinating. 🏛️✨",
-    time: "4d",
-    media: [
-      { type: "image", url: "https://picsum.photos/seed/arch1/800/800" },
-      { type: "image", url: "https://picsum.photos/seed/arch2/800/800" },
-      { type: "image", url: "https://picsum.photos/seed/arch3/800/800" },
-      { type: "image", url: "https://picsum.photos/seed/arch4/800/800" }
-    ]
-  },
-  {
     id: 2,
     author: USER,
-    content: "A quick look at the design process vs the final result. Sometimes you just have to trust the process! 🎨📱",
-    time: "5d",
+    content: "a cute enanan, she adorable",
+    time: "26/02/2026",
+    isSensitive: true,
     media: [
-      { type: "image", url: "https://picsum.photos/seed/process/800/600" },
-      { type: "video", url: "https://www.w3schools.com/html/mov_bbb.mp4" }
+      { type: "image", url: "images/20260226_081904.jpg" },
     ]
   },
   {
     id: 1,
     author: USER,
-    content: "Google is always a great place to start searching for inspiration. Check it out here: https://google.com",
-    time: "6d",
+    content: "Hello World!",
+    time: "26/02/2026",
     media: []
   }
 ];
@@ -451,7 +367,7 @@ export default function App() {
         {/* Footer */}
         <footer className="mt-8 border-t border-[var(--color-surface-container-high)] py-6 px-4 text-center">
           <p className="text-sm text-[var(--color-on-surface-variant)] opacity-70">
-            Đã cập nhật: 25/02/2026
+            Đã cập nhật: 26/02/2026
           </p>
           <p className="font-cabin text-sm text-[var(--color-on-surface-variant)] opacity-70 mt-1">
             Quan. Works

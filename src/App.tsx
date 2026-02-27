@@ -392,7 +392,7 @@ export default function App() {
         {/* Footer */}
         <footer className="mt-8 border-t border-[var(--color-surface-container-high)] py-6 px-4 text-center">
           <p className="text-sm text-[var(--color-on-surface-variant)] opacity-70">
-            Đã cập nhật: 27/02/2026
+            Phiên bản: v1.0.1 - Đã cập nhật: 27/02/2026
           </p>
           <p className="font-cabin text-sm text-[var(--color-on-surface-variant)] opacity-70 mt-1">
             Quan. Works

@@ -24,7 +24,7 @@ const USER = {
 
 const POSTS = [
   {
-    id: 2,
+    id: 1,
     author: USER,
     content: "a cute enanan, she adorable #ShinonomeEna",
     time: "26/02/2026",
@@ -32,13 +32,6 @@ const POSTS = [
     media: [
       { type: "image", url: "https://raw.githubusercontent.com/daoquan1002/post/refs/heads/main/images/20260226_081904.jpg" },
     ]
-  },
-  {
-    id: 1,
-    author: USER,
-    content: "Hello World!",
-    time: "26/02/2026",
-    media: []
   }
 ];
 
@@ -60,13 +53,13 @@ export default function App() {
     // Regex to match URLs and Hashtags
     const regex = /(https?:\/\/[^\s]+|#[^\s#]+)/g;
     
-    // Split the content by URLs
-    const parts = content.split(urlRegex);
+    // Split the content
+    const parts = content.split(regex);
     
     return (
       <p className="mt-1 text-[15px] leading-relaxed text-[var(--color-on-surface)] whitespace-pre-wrap">
         {parts.map((part, index) => {
-          if (part.match(urlRegex)) {
+          if (part.match(/^https?:\/\/[^\s]+/)) {
             return (
               <a 
                 key={index} 
@@ -381,7 +374,7 @@ export default function App() {
         {/* Footer */}
         <footer className="mt-8 border-t border-[var(--color-surface-container-high)] py-6 px-4 text-center">
           <p className="text-sm text-[var(--color-on-surface-variant)] opacity-70">
-            Đã cập nhật: 26/02/2026
+            Đã cập nhật: 25/02/2026
           </p>
           <p className="font-cabin text-sm text-[var(--color-on-surface-variant)] opacity-70 mt-1">
             Quan. Works

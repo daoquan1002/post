@@ -1,0 +1,41 @@
+@import url('https://fonts.cdnfonts.com/css/google-sans');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Noto Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Noto Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-google-sans: "Google Sans", "Product Sans", sans-serif;
+  --font-cabin: "Cabin", ui-sans-serif, system-ui, sans-serif;
+  
+  --color-surface: #F8FAFD;
+  --color-surface-container: #EAF1FB;
+  --color-surface-container-high: #E2EAF6;
+  --color-on-surface: #1A1C1E;
+  --color-on-surface-variant: #43474E;
+  --color-outline: #73777F;
+  --color-outline-variant: #C3C7CF;
+  
+  --color-primary: #0061A4;
+  --color-on-primary: #FFFFFF;
+  --color-primary-container: #D1E4FF;
+  --color-on-primary-container: #001D36;
+  
+  --color-secondary: #535F70;
+  --color-on-secondary: #FFFFFF;
+  --color-secondary-container: #D7E3F7;
+  --color-on-secondary-container: #101C2B;
+}
+
+body {
+  background-color: var(--color-surface);
+  color: var(--color-on-surface);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.font-display {
+  font-family: var(--font-display);
+}

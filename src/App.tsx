@@ -44,7 +44,7 @@ const POSTS = [
   {
     id: 1,
     author: USER,
-    content: "a cute enanan, she adorable\n\n#ShinonomeEna",
+    content: "a cute enanan, she adorable\n#ShinonomeEna",
     time: "26/02/2026",
     isSensitive: true,
     media: [

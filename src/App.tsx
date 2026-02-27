@@ -38,7 +38,7 @@ const POSTS = [
     content: "kamome sano / happy ending",
     time: "27/02/2026",
     media: [
-      { type: "audio", url: "https://drive.google.com/uc?export=download&id=1_9VN7mdWrDNUVkrwd4Z3DkziaJXDRUDK" },
+      { type: "audio", url: "https://drive.google.com/uc?id=1_9VN7mdWrDNUVkrwd4Z3DkziaJXDRUDK" },
     ]
   },
   {

@@ -30,7 +30,7 @@ const POSTS = [
     time: "26/02/2026",
     isSensitive: true,
     media: [
-      { type: "image", url: "images/20260226_081904.jpg" },
+      { type: "image", url: "https://raw.githubusercontent.com/daoquan1002/post/refs/heads/main/images/20260226_081904.jpg" },
     ]
   },
   {

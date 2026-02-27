@@ -24,6 +24,16 @@ const USER = {
 
 const POSTS = [
   {
+    id: 2,
+    author: USER,
+    content: "kamome sano / happy ending",
+    time: "27/02/2026",
+    isSensitive: true,
+    media: [
+      { type: "audio", url: "https://raw.githubusercontent.com/daoquan1002/post/refs/heads/main/music/Kamome Sano - happy ending.opus" },
+    ]
+  },
+  {
     id: 1,
     author: USER,
     content: "a cute enanan, she adorable\n\n#ShinonomeEna",

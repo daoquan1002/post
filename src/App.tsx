@@ -26,7 +26,7 @@ const POSTS = [
   {
     id: 2,
     author: USER,
-    content: "a cute enanan, she adorable",
+    content: "a cute enanan, she adorable #ShinonomeEna",
     time: "26/02/2026",
     isSensitive: true,
     media: [
@@ -57,8 +57,8 @@ export default function App() {
   const activePost = selectedPost ? POSTS.find(p => p.id === selectedPost) : null;
 
   const renderContentWithLinks = (content: string) => {
-    // Regex to match URLs
-    const urlRegex = /(https?:\/\/[^\s]+)/g;
+    // Regex to match URLs and Hashtags
+    const regex = /(https?:\/\/[^\s]+|#[^\s#]+)/g;
     
     // Split the content by URLs
     const parts = content.split(urlRegex);
@@ -74,6 +74,20 @@ export default function App() {
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-[var(--color-primary)] hover:underline"
+                onClick={(e) => e.stopPropagation()}
+              >
+                {part}
+              </a>
+            );
+          } else if (part.match(/^#[^\s#]+/)) {
+            const searchQuery = encodeURIComponent(part);
+            return (
+              <a 
+                key={index} 
+                href={`https://www.google.com/search?q=${searchQuery}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-[var(--color-primary)] hover:underline cursor-pointer"
                 onClick={(e) => e.stopPropagation()}
               >
                 {part}
